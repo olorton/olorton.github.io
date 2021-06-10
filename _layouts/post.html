@@ -1,0 +1,20 @@
+---
+layout: default
+---
+
+{% if page.published == "draft" %}
+<h1>[DRAFT]</h1>
+{% endif %}
+
+<h1>{{ page.title }}</h1>
+<article>{{ content }}</article>
+
+{% if page.published == "draft" %}
+    <p class="alert alert-warning">this is a draft post - there are probably errors and the url may change</p>
+{% endif %}
+<p class="published-date">
+    Published date:
+    <time class="date" datetime="{{page.date | date_to_xmlschema}}">
+        {{ page.date | date: "%d %B %Y" }}
+    </time>
+</p>

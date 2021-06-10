@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<h1 class="page-title">{{ page.title }}</a></h1>
+
+<div>
+    {% if page.published == "draft" %}
+    <p class="alert alert-warning">this is a draft page - there are probably errors and the url may change</p>
+    {% endif %}
+
+    {{ content }}
+</div>

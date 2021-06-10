@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-widthl initial-scale=1.0; viewport-fit=cover">
+    <title>{% if page.title %}{{ page.title }} &mdash; {% endif %}Oliver Lorton</title>
+    <link href="/atom.xml" type="application/atom+xml" rel="alternate" title="Oliver Lorton">
+    <link rel="stylesheet" href="/css/main.css" >
+
+    <link href="https://twitter.com/olorton" rel="me">
+    <link href="https://github.com/olorton" rel="me">
+    <link href="mailto:oliverlorton@gmail.com" rel="me">
+    <meta name="author" content="@olorton">
+</head>
+<body>
+    {{ content }}
+
+    {% if page.hide_footer != true and post.hide_footer != true %}
+    <hr>
+    <footer>
+        <div class="footer-about">
+            <h3>About me</h3>
+            <p>Well, hello. My name is Oliver Lorton. I'm an software enginner, mostly working with server side web technologies in open source languages and frameworks such as Python, PHP, Flask, Django.</p>
+            <p>If you have any feedback, or would like to get in touch with me then please send me an email or contact me on twitter: <a href="mailto:oliverlorton@gmail.com">oliverlorton@gmail.com</a> or <a href="https://twitter.com/olorton/">Twitter</a></p>
+        </div>
+        <div class="footer-links">
+            <h3>Links</h3>
+            <ul>
+                <li><a href="/">About me</a></li>
+                <li><a href="/articles.html">Articles</a></li>
+                <li><a href="/atom.xml">RSS</a></li>
+            </ul>
+        </div>
+    </footer>
+    {% endif %}
+</body>
+</html>
