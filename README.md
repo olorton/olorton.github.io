@@ -14,7 +14,7 @@ And that you have version 3 or later:
 
 Install Jekyll and bundler gems:
 
-    gem install jekyll bundler && bundle install
+    bundle install
 
 Run local Jekyll server with live reload:
 
