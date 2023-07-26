@@ -17,7 +17,7 @@ I love to connect with people. If you want to say hi or have something you want 
 
 Another reason to get in touch is because you want me to read your blog. I will read it, I promise.
 
-If you actually want to read something, here are a few of blog post to get you started:
+If you actually want to read something, here are a few suggestions:
 
 - [Watching the world burn](post/2023-07-26-watching-the-world-burn.html)
 - [Thoughts on tools and learning](post/2020-05-26-thoughts-on-tools-and-learning.html)
