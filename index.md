@@ -25,4 +25,4 @@ If you actually want to read something of mine, here are a few suggestions:
 - [Thoughts on tools and learning](post/2020-05-26-thoughts-on-tools-and-learning.html)
 - [Shouting in the wind](post/2020-01-29-shouting-in-the-wind.html)
 
-You can find the full list on the [posts page](posts.html) and subscribe using [RSS](/atom.xml).
+You can find the full list on the [posts page](posts.html) and subscribe using [rss](/atom.xml).
