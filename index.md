@@ -19,10 +19,10 @@ I love to hear from old friends and strangers. If you want to say "hi" or have s
 
 Another reason to get in touch is because you want me to read your blog. I will read it, I promise.
 
-If you actually want to read something, here are a few suggestions:
+If you actually want to read something of mine, here are a few suggestions:
 
 - [Watching the world burn](post/2023-07-26-watching-the-world-burn.html)
 - [Thoughts on tools and learning](post/2020-05-26-thoughts-on-tools-and-learning.html)
 - [Shouting in the wind](post/2020-01-29-shouting-in-the-wind.html)
 
-You can find the full list on the [articles page](articles.html) and subscribe using [RSS](/atom.xml).
+You can find the full list on the [posts page](posts.html) and subscribe using [RSS](/atom.xml).

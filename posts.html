@@ -1,9 +1,10 @@
 ---
 layout: page
 published: true
-title: Articles
+title: Posts
 hide_footer: true
 ---
+<div class="list-posts">
 {% assign last_year = '0' %}
 {% for post in site.posts %}
     {% assign cur_year = post.date|date: "%Y" %}
@@ -24,3 +25,4 @@ hide_footer: true
         </ul>
     {% endif %}
 {% endfor %}
+</div>

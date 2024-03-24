@@ -169,3 +169,28 @@ hr {
         color: $color-fg;
     }
 }
+
+.list-posts {
+    max-width: 60ch;
+    margin: 0 auto;
+
+    h2 {
+        padding: 0;
+
+        &::after {
+            display: none;
+        }
+    }
+
+    ul {
+        margin: 0 0 $lineheight 0;
+
+        li {
+            padding: 0;
+        }
+
+        li::after {
+            display: none;
+        }
+    }
+}
