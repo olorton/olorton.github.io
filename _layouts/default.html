@@ -13,24 +13,38 @@
     <meta name="author" content="@olorton">
 </head>
 <body>
+    <header>
+        <nav>
+            <a href="/">about/</a>
+            <a href="/articles.html">articles/</a>
+            <div class="right">
+                <a href="https://www.github.com/olorton">github</a>
+                <a href="https://mastodon.org.uk/@olorton">mastodon</a>
+                <a href="mailto:oliverlorton@gmail.com">email</a>
+                <a href="/atom.xml">RSS</a>
+            </div>
+        </nav>
+    </header>
     {{ content }}
 
     {% if page.hide_footer != true and post.hide_footer != true %}
     <hr>
     <footer>
         <div class="footer-about">
-            <h3>About me</h3>
-            <p>I am Oliver Lorton. I pay the bills by building web applications with server-side technologies in open source languages and frameworks.</p>
-            <p>If you have any feedback then please do get in touch: <a href="mailto:oliverlorton@gmail.com">oliverlorton@gmail.com</a> or <a href="https://mastodon.org.uk/@olorton">Mastodon</a></p>
+            <p>Written by Oliver Lorton. I build things for the web, using mostly open source server-side technologies rather than in the browser.</p>
+            <p>I love hearing from real people. If something I wrote was so outrageously bad (or good), or if you just want to say hello, please drop me a line: <a href="mailto:oliverlorton@gmail.com">oliverlorton@gmail.com</a> or <a href="https://mastodon.org.uk/@olorton">Mastodon</a></p>
         </div>
-        <div class="footer-links">
-            <h3>Links</h3>
-            <ul>
-                <li><a href="/">About me</a></li>
-                <li><a href="/articles.html">Articles</a></li>
-                <li><a href="/atom.xml">RSS</a></li>
-            </ul>
-        </div>
+        <hr>
+        <nav>
+            <a href="/">about/</a>
+            <a href="/articles.html">articles/</a>
+            <div class="right">
+                <a href="https://www.github.com/olorton">github</a>
+                <a href="https://mastodon.org.uk/@olorton">mastodon</a>
+                <a href="mailto:oliverlorton@gmail.com">email</a>
+                <a href="/atom.xml">RSS</a>
+            </div>
+        </nav>
     </footer>
     {% endif %}
 </body>

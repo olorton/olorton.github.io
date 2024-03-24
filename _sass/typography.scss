@@ -1,18 +1,160 @@
 // TODO - add pygments?
 
+$color-fg: #5c6a72;
+$color-fg: black;
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: monospace;
+    font-size: 14px;
+    line-height: 1.8em;
+    margin: 1.8em auto 2*1.8em auto;
+}
+
+.page-heading {
+    max-width: 40ch;
+    margin: 3*1.8em auto;
+    text-align: center;
+    p, h1 {
+        margin: 0;
+    }
+}
+
+h1 {
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    text-align: center;
+    display: block;
+    margin: 3*1.8em auto;
+}
+
+h2 {
+    font-size: 1em;
+    font-weight: normal;
+    text-transform: uppercase;
+    margin: 1.8em 0;
+    padding: 0 0 1.8em 0;
+    display: block;
+    position: relative;
+    overflow: hidden;
+
+    &::after {
+        content: "---------------------------------------------------------------------------------------------------";
+        position: absolute;
+        bottom: 1.8em;
+        left: 0;
+        top: 1.8em;
+    }
+}
+
+h3 {
+    font-size: 1em;
+    font-weight: normal;
+    margin: 1.8em 0;
+    position: relative;
+
+    &::before {
+        content: "== ";
+        display: inline;
+    }
+
+    &::after {
+        content: " ==";
+        display: inline;
+    }
+}
+
+p {
+    margin: 0 0 1.8em 0;
+}
+
+a {
+    color: $color-fg;
+}
+
 code {
-    font-size: 0.8rem;
-    background-color: #1a1a1a;
+    background-color: #443e1a;
     color: white;
     padding: 2px 6px;
+    border-radius: 3px;
 }
 
 pre {
-    background-color: #1a1a1a;
+    position: relative;
+    box-sizing: border-box;
+    background-color: #443e1a;
     color: white;
-    padding: 3px 6px;
+    padding: 1.8em 2ch;
+    border-radius: 3px;
+    overflow: scroll;
+    margin: 0 0 1.8em 0;
 
     code {
         padding: 0;
+    }
+}
+
+ul {
+    margin: 0 0 1.8em 0;
+
+    li::after {
+        content: '-';
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+ol {
+    counter-reset: ol;
+    li::after {
+        counter-increment: ol;
+        content: counter(ol) '.';
+        position: absolute;
+        top: 0;
+        left: 0;
+    }
+}
+
+li {
+    display: block;
+    position: relative;
+    padding-left: 4ch;
+}
+
+nav {
+    a {
+        text-decoration: none;
+    }
+
+    .right {
+        float: right;
+    }
+}
+
+hr {
+    position: relative;
+    height: 1.8em;
+    font-size: 14px;
+    line-height: 0;
+    overflow: hidden;
+    border: 0;
+    margin: 1.8em 0ch;
+
+    &:after {
+        content: "----------------------------------------------------------------------------------------------------";
+        position: absolute;
+        top: 0;
+        left: 0;
+        font-size: 14px;
+        line-height: 1.8em;
+        width: 100%;
+        word-wrap: break-word;
+        color: $color-fg;
     }
 }
