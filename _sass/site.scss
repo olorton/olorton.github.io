@@ -113,6 +113,10 @@ pre {
 ul {
     margin: 0 0 $lineheight 0;
 
+    li {
+        padding-left: 2ch;
+    }
+
     li::after {
         content: '-';
         position: absolute;
@@ -123,6 +127,11 @@ ul {
 
 ol {
     counter-reset: ol;
+
+    li {
+        padding-left: 4ch;
+    }
+
     li::after {
         counter-increment: ol;
         content: counter(ol) '.';
@@ -135,7 +144,6 @@ ol {
 li {
     display: block;
     position: relative;
-    padding-left: 4ch;
 }
 
 nav {
@@ -184,13 +192,9 @@ hr {
 
     ul {
         margin: 0 0 $lineheight 0;
+    }
 
-        li {
-            padding: 0;
-        }
-
-        li::after {
-            display: none;
-        }
+    a {
+        text-decoration: none;
     }
 }
