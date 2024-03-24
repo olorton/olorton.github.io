@@ -1,7 +1,14 @@
 // TODO - add pygments?
 
-$color-fg: #5c6a72;
-$color-fg: black;
+@font-face {
+  font-family: 'jetbrainsmono';
+  src: url('/fonts/JetBrainsMono-Light.woff2') format('woff2')
+}
+
+$color_bg: #fce97e;
+$color_fg: black;
+$fontsize: 14px;
+$lineheight: 25px;
 
 * {
     margin: 0;
@@ -9,15 +16,19 @@ $color-fg: black;
 }
 
 body {
-    font-family: monospace;
-    font-size: 14px;
-    line-height: 1.8em;
-    margin: 1.8em auto 2*1.8em auto;
+    box-sizing: box;
+    max-width: 80ch;
+    background-color: $color_bg;
+    margin: $lineheight auto 2*$lineheight auto;
+    padding: 0 1ch;
+    font-family: jetbrainsmono, monospace;
+    font-size: $fontsize;
+    line-height: $lineheight;
 }
 
 .page-heading {
     max-width: 40ch;
-    margin: 3*1.8em auto;
+    margin: 3*$lineheight auto;
     text-align: center;
     p, h1 {
         margin: 0;
@@ -25,37 +36,37 @@ body {
 }
 
 h1 {
-    font-size: 1em;
+    font-size: $fontsize;
     font-weight: normal;
     text-transform: uppercase;
     text-align: center;
     display: block;
-    margin: 3*1.8em auto;
+    margin: 3*$lineheight auto;
 }
 
 h2 {
-    font-size: 1em;
+    font-size: $fontsize;
     font-weight: normal;
     text-transform: uppercase;
-    margin: 1.8em 0;
-    padding: 0 0 1.8em 0;
+    margin: $lineheight 0;
+    padding: 0 0 $lineheight 0;
     display: block;
     position: relative;
     overflow: hidden;
 
     &::after {
-        content: "---------------------------------------------------------------------------------------------------";
+        content: "----------------------------------------------------------------------------------------------------";
         position: absolute;
-        bottom: 1.8em;
+        bottom: $lineheight;
         left: 0;
-        top: 1.8em;
+        top: $lineheight;
     }
 }
 
 h3 {
     font-size: 1em;
     font-weight: normal;
-    margin: 1.8em 0;
+    margin: $lineheight 0;
     position: relative;
 
     &::before {
@@ -70,7 +81,7 @@ h3 {
 }
 
 p {
-    margin: 0 0 1.8em 0;
+    margin: 0 0 $lineheight 0;
 }
 
 a {
@@ -89,10 +100,10 @@ pre {
     box-sizing: border-box;
     background-color: #443e1a;
     color: white;
-    padding: 1.8em 2ch;
+    padding: $lineheight 2ch;
     border-radius: 3px;
     overflow: scroll;
-    margin: 0 0 1.8em 0;
+    margin: 0 0 $lineheight 0;
 
     code {
         padding: 0;
@@ -100,7 +111,7 @@ pre {
 }
 
 ul {
-    margin: 0 0 1.8em 0;
+    margin: 0 0 $lineheight 0;
 
     li::after {
         content: '-';
@@ -139,20 +150,20 @@ nav {
 
 hr {
     position: relative;
-    height: 1.8em;
+    height: $lineheight;
     font-size: 14px;
     line-height: 0;
     overflow: hidden;
     border: 0;
-    margin: 1.8em 0ch;
+    margin: $lineheight 0ch;
 
     &:after {
-        content: "----------------------------------------------------------------------------------------------------";
+        content: "================================================================================";
         position: absolute;
         top: 0;
         left: 0;
         font-size: 14px;
-        line-height: 1.8em;
+        line-height: $lineheight;
         width: 100%;
         word-wrap: break-word;
         color: $color-fg;
