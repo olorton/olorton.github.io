@@ -55,3 +55,6 @@ plugins:
 #   - vendor/ruby/
 feed:
   path: atom.xml
+
+kramdown:
+  smart_quotes: ["apos", "apos", "quot", "quot"]
