@@ -25,7 +25,7 @@ He has consciously transformed his life in ways that he wanted to by tackling th
 
 Here is a short video of Matt explaining 30 day challenges:
 
-<iframe frameborder="0" scrolling="no" marginheight="0" marginwidth="0"width="685.3" height="385" type="text/html" src="https://www.youtube.com/embed/UNP03fDSj1U?autoplay=0&fs=1&iv_load_policy=3&showinfo=1&rel=0&cc_load_policy=0&start=0&end=0&origin=https://youtubeembedcode.com"></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/UNP03fDSj1U?si=o9sH-n97xkqmaNKI" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 ## Small changes
 
