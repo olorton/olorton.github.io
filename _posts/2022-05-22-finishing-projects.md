@@ -11,7 +11,7 @@ Having admitted that, I think it is really hard to do. I have seen colleagues an
 
 I have a new project that I want to start, several actually, so to be successful by my standards I need to understand what is going on. I have brainstormed a few possible causes and improvements I can make, and it sort of boils down to two main things:
 
-### Be brutally minimalist
+## Be brutally minimalist
 
 Remove all the features/desires that are not needed to publish the website, app, or codebase. There should be one goal/feature. Build that, and that only. This means:
 
@@ -22,7 +22,7 @@ Remove all the features/desires that are not needed to publish the website, app,
 - Use a framework that allows you to move quickly and doesn't get in your way. For me, this would be Flask or Django. I love the one file Flask setup that allows me to set up a few routes quickly.
 - Proudly built elsewhere. Use third party code to achieve your aims, but only if it will be quicker to learn someone else's tool than to build your own.
 
-### Be conscious about how productive you want to be
+## Be conscious about how productive you want to be
 
 Everyone has a busy life, me included. I am not 20 anymore, and my carefree attitude to my time has gone and has been replaced by a family and house and a life that need my time. This means that every minute is sacred and must be spent wisely, so I should plan how I am going to spend my time so that my latest project gets completed and launched.
 
