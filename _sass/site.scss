@@ -20,7 +20,7 @@ body {
     max-width: 80ch;
     background-color: $color_bg;
     margin: $lineheight auto 2*$lineheight auto;
-    padding: 0 1ch;
+    padding: 0 1ch 6*$lineheight 1ch;
     font-family: jetbrainsmono, monospace;
     font-size: $fontsize;
     line-height: $lineheight;
@@ -48,7 +48,7 @@ h2 {
     font-size: $fontsize;
     font-weight: normal;
     text-transform: uppercase;
-    margin: $lineheight 0;
+    margin: 2*$lineheight 0 $lineheight 0;
     padding: 0 0 $lineheight 0;
     display: block;
     position: relative;
