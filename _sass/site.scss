@@ -86,6 +86,11 @@ p {
 
 a {
     color: $color-fg;
+    text-decoration: underline;
+    text-decoration-color: #ff69b490;
+    text-decoration-skip-ink: none;
+    text-decoration-thickness: 0.5em;
+    text-underline-offset: -0.2em;
 }
 
 code {
@@ -192,9 +197,5 @@ hr {
 
     ul {
         margin: 0 0 $lineheight 0;
-    }
-
-    a {
-        text-decoration: none;
     }
 }
