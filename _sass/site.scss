@@ -171,7 +171,8 @@ hr {
     margin: $lineheight 0ch;
 
     &:after {
-        content: "================================================================================";
+        content: "*  *  *";
+        text-align: center;
         position: absolute;
         top: 0;
         left: 0;
