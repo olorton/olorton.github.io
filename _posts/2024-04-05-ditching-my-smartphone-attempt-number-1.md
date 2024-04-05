@@ -1,8 +1,8 @@
 ---
 layout: post
 published: true
-title: "Ditching my smartphone: Attempt number 1"
-date: '2024-04-05 21:27:00 +0000'
+title: 'Ditching my smartphone: Attempt number 1'
+date: '2024-04-05 21:27:00 +0100'
 ---
 
 ## What did I want to achieve?
